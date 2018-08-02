@@ -1,0 +1,40 @@
+---
+title: "Email Heading Optimization Tool"
+author: "Harini"
+date: "August 2, 2018"
+output: html_document
+---
+
+#Project Proposal
+
+Company X has been using **emails** as a mode of communications from leadership to its employees. The communications head is curious to know which **email headers** get more open rates than the others.
+
+# Available Data
+
+1. **Email Header** 
+2. **Sender Name**
+3. **Date Time Sent**
+4. **Open Rate**
+5. **Target Group Size**
+
+The data has **570** rows of information organised as per the columns above
+
+> Note: The open rate does not capture mobile open rates. Hence there is high chance that the open rate shown above is not showing the complete picture
+
+## Our Solution:
+
+An algorithm that predicts the email open rates taking into consideration the factors such as Header, Senders name, Day and Time and Target group size. 
+
+The methodology we will be using is as follows:
+
+1. **Data Wrangling** - > The data is organised into a structured format, the dates and time are segregated into "Date Sent", "Time Sent" and "Weekday", NAs are eliminated etc
+2. **Data Manipulation** ->  The data is visually represented using various data visualization tools such as scatter plots, histograms, heatmaps to find out the viewing behaviour, most viewed days, time periods etc
+3. **Text Analytics** ->  Using text analytics we can figure out which headers have triggered more open rates
+4. **Predictive Modelling** -> Using predictive modelling techniques, we can evaluate how the parameters such as Header, Sender, Date, Time, Day, Group size influences the email open rate and predict the open rates accordingly
+
+## Deliverables:
+
+Our typical deliverables will be:
+
+1. **Final word document** report that shows the solution as well as the analysis, detailed description etc
+2. **Code** that will form the basis for the report
